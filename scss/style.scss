@@ -1,0 +1,13 @@
+//Import _custom.css (which contains bootstrap's main
+//file that contains everything)
+ 
+@use'custom'; //ignore the underscore, just write custom
+
+//Then run "npm run compile:sass"
+//Have a look at assets/style.css
+//It gets compiles an now style.css is our style sheet
+
+//So import bootstrap from node_modules to _custom.scss
+//come here and import it
+//compile it
+//whatever we do here will be reflected in style.css

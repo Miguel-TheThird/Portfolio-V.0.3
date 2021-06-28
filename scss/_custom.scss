@@ -1,0 +1,55 @@
+//Now go to style.scss and import this _custom.scss in there
+
+//*************************************************//
+//Go to node_modules/bootstrap/scss/_variables.scss
+//Copy what ever you need that you are going to modify
+
+
+//White and gray colors
+//What ever you copy you should remove !dfault flag if you want to change it.
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$blue:    #76960c; //Original: $blue:    #0d6efd; this is then passed to $primary class
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+$primary:       $blue; //Origonal $blue
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+
+
+
+//This file contains all the variables that to override in boostrap
+//Not a good practice to modify bootstrap call files (defaults)
+//Underscore let us know that the file is a partial only, and
+//it should not be generate into a style sheet. (create a map and all that into assets)
+
+//Import Boostrap 5
+//Use import @ rule from the node modules
+//Boostrap.scss is the main file that has EVERYTHING
+
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+
+

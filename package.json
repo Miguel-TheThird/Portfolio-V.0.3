@@ -1,0 +1,29 @@
+{
+  "name": "Portfolio-V.0.3",
+  "version": "1.0.0",
+  "description": "Welcome to my new and updated portfolio!",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguel-TheThird/Portfolio-V.0.3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguel-TheThird/Portfolio-V.0.3/issues"
+  },
+  "homepage": "https://github.com/Miguel-TheThird/Portfolio-V.0.3#readme",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
