@@ -1,0 +1,16 @@
+@use '../custom' as *;
+
+.intro{ 
+        display: inline-block;
+        font-weight: 700;
+        color: $white;
+    }
+    
+
+.description{
+    font-size: 2rem;
+    display: block;
+    color: $white;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}

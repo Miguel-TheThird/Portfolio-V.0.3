@@ -1,0 +1,8 @@
+//This file has to be at the same level of style.scss to be compiled, it will then be a fontawesome.css in the css folder
+//Need all this modules to use icons from fontaweome
+//Need to physically copy webfonts folder into assets in order to work, found in node_modules/@fontawesome/fontawesome-free/webfonts
+
+@use '../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@use '../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@use '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@use '../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';

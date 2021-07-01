@@ -1,0 +1,15 @@
+//To be able to use $primary and $secondary variables (or any) you have to import the file where they are located
+//and we have to call them using namespaces (namespace should be the file _custom).
+//but in this occation we are going to remove the namespace by using * , that's why you have "as *"
+
+@use '../custom' as *;
+
+//This class is added to the nav bar to create the 2 colors mix
+.menu{
+    background: linear-gradient(to right,rgba($primary,1),rgba($secondary,0.95)); //0.95 number is the opacity, if you dont include it,
+    //it will throw an error in the browser "missing element".
+    a{
+      color: $white !important; //Must add "!important" 
+    }
+
+}

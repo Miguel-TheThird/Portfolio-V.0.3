@@ -1,6 +1,6 @@
 //Import _custom.css (which contains bootstrap's main
 //file that contains everything)
- 
+
 @use'custom'; //ignore the underscore, just write custom
 
 //Then run "npm run compile:sass"
@@ -11,3 +11,17 @@
 //come here and import it
 //compile it
 //whatever we do here will be reflected in style.css
+
+//IMPORT FILES INSIDE COMPONENTS FOLDER
+
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+
+//IMPORT FILES INSIDE SECTIONS FOLDER
+
+@use 'sections/footer';
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/portfolio';

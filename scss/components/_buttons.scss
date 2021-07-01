@@ -1,0 +1,5 @@
+@use '../custom' as *; //Need to import it because we are using a variable "$white"
+
+i{
+    color: $white; //Color of the item </> from fontawesome
+}
